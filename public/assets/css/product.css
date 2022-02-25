@@ -1,0 +1,42 @@
+/* .card {
+    padding-bottom: 50px;
+} */
+
+.item-features {
+    background-color: #F8F8F8;
+    padding-top: 1.357rem;
+    padding-bottom: 1.357rem;
+    border-radius: 0 0 0.428rem 0.428rem;
+}
+
+.item-price {
+    color: #7367F0;
+}
+
+.item-company {
+    font-weight: 400;
+    font-size: .875rem;
+}
+
+.company-name {
+    font-weight: 600;
+}
+
+.description p {
+    margin-bottom: 0 !important;
+}
+
+@media (min-width: 992px) {
+    .description p {
+        text-align: left !important;
+    }
+
+    .vertical-align {
+        display: flex;
+        align-content: center !important;
+    }
+}
+
+.item-link {
+    color: inherit;
+}

@@ -1,0 +1,30 @@
+#items-container {
+    padding: 0 50px;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.description p {
+    margin-bottom: 0 !important;
+}
+
+@media (min-width: 992px) {
+    .description p {
+        text-align: left !important;
+    }
+
+    .vertical-align {
+        display: flex;
+        align-content: center !important;
+    }
+}
+
+#item-features {
+    margin-top: 40px;
+    padding-top: 1.357rem;
+    padding-bottom: 1.357rem;
+}
+
+.item-link {
+    color: inherit;
+}
